@@ -1,0 +1,252 @@
+@media all and (min-width: 50em){
+    body{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        background: white;
+        font-family: 'Poppins', sans-serif !important;
+    }
+    
+    header{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    header img{
+        height: auto;
+        width: 13%;
+        object-fit: contain;
+        margin-left: 24px;
+    }
+    
+    header div{
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-right: 33px;
+    }
+    
+    header div a{
+        color: #000073;
+        text-decoration: none;
+        font-size: 1.1vw;
+    }
+    
+    .main_section{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        position: relative;
+        left: 8%;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .main_section img{
+        width: 45%;
+        height: auto;;
+    }
+    
+    .main_text{
+        font-size: 3vw;
+        color: #000073;
+        margin: 0;
+    }
+    
+    .main_sub_text{
+        font-size: 1.3vw;
+        color: #76758B;
+        margin: 0;
+    }
+    
+    .main_button{
+        display: flex;
+        width: 70%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        top: 2vw;
+    }
+
+    .button{     
+        border: none;
+        width: 45%;
+        border-radius: 8px;
+        padding: 0 1% 0 1%;
+        background: #961F9C;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .button p{
+        font-size: 1vw;
+    }
+
+    .button_p{
+        color: #000073;
+        font-size: 1.1vw;
+    }
+
+    .button img{
+        width: 4%;
+    }
+
+    .featured{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 5%;
+        top: 2vw;
+    }
+
+    .featured h2{
+        color: rgb(176, 176, 189);
+        font-size: 1.5vw;
+        font-weight: 400;
+    
+    }
+
+    .featured_logos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 82%;
+    }
+
+    .featured_logos img{
+        width: 15%;
+        height: auto;
+    }
+
+    #forbes{
+        width: 11%;
+    }
+
+    .strategy{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 8vw;
+        left: 8%;
+    }
+
+    .strategy h2{
+        font-size: 1.7vw;
+        font-weight: 700;
+        color: #000073;
+    }
+
+    .strategy img{
+        width: 25%;
+        height: auto;
+    }
+
+    .strategy_card{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .strategy_card h3{
+        font-size: 1.6vw;
+        color: #000073;
+        margin-bottom: 8px;
+        line-height: 1.5;
+    }
+
+    .strategy_card p{
+        font-size: 0.9vw;
+        color: #76758B;
+        margin-top: 2px;
+    }
+
+    .roadmap{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 15vw;
+    }
+
+    .roadmap h2{
+        color: #000073;
+        font-size: 1.5vw;
+    }
+
+    .roadmap img{
+        width: 70%;
+    }
+
+    .roadmap_list{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+        position: relative;
+    }
+
+    .div1{
+        position: relative;
+        left: 6.5vw;
+        width: 20%;
+    }
+
+    .div1 h3{
+        font-size: 1.3vw;
+        color: #000073;
+    }
+
+    ul{
+        font-size: 1vw;
+        list-style: none;
+    }
+
+    ul li::before {
+        content: "\2022";
+        color: #000073;
+        font-weight: bold; 
+        display: inline-block;
+        width: 1em;    
+        font-size: 1.1vw;
+        margin-left: -1em;
+    }
+
+    li{
+        color: #76758B;
+    }
+
+    .div2{
+        position: relative;
+        right: 14.7vw;
+        width: 20%;
+    }
+
+    .div2 h3{
+        font-size: 1.3vw;
+        color: #000073;
+    }
+
+}
