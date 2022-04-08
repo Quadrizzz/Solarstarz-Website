@@ -175,7 +175,7 @@
     }
 
     .strategy_card p{
-        font-size: 0.9vw;
+        font-size: 1vw;
         color: #76758B;
         margin-top: 2px;
     }
@@ -248,5 +248,206 @@
         font-size: 1.3vw;
         color: #000073;
     }
+
+    .tokenomics{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 18vw;
+        background: url('./Solarstarz_/Images/Desktop\ Background.png');
+        background-position: center;
+        background-size: cover;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+    }
+
+    .tokenomics h2{
+        color: #D62CDF;
+        font: 1.2vw;
+    }
+
+    .tokenomic_main{
+        display: flex;
+        width: 80%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .main_image{
+        width: 24%;
+        height: auto;
+        position: relative;
+        top: 3vw;
+        left: 6vw;
+    }
+
+    .tokenomic_main_text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        justify-content: center;
+    }
+
+    .tokenomic_main_text .text{
+        width: 80%;
+    }
+
+    .text h3{
+        color: white;
+        font-size: 1.4vw;
+    }
+
+    .text p{
+        color: #76758B;
+        font-size: 1.1vw;
+    }
+
+    .text p span{
+        font-weight: bold;
+        color: #C0BFCA;
+    }
+
+    .images1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 70%;
+        position: relative;
+        right: 27px;
+    }
+
+    .images1 p {
+        color: #76758B;
+        font-size: 1vw;
+    }
+
+    .images2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 70%;
+        position: relative;
+        right: 27px;
+    }
+
+    .images2 p{
+        color: #76758B;
+        font-size: 1vw;
+    }
+
+    .images_card{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 50%;
+        position: relative;
+        right: 1.5vw;
+    }
+
+    .images_card img{
+        width: 30%;
+        height: auto;
+    }
+
+    .images_card1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 37%;
+    }
+
+    .images_card1 img{
+        width: 30%;
+    }
+
+    .images_card2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 37%;
+        position: relative;
+        right: 5vw;
+    }
+
+    .images_card2 img{
+        width: 30%;
+    }
+
+    .images_card3{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 37%;
+    }
+
+    .images_card3 img{
+        width: 30%;
+    }
+
+    .token_distribution{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 7vw;
+    }
+
+    .token_distribution_head{
+        color: white !important;
+        font-size: 1.5vw;
+    }
+
+    .token_distribution_text{
+        text-align: center;
+        color: #76758B;
+        font-size: 1.2vw;
+    }
+
+    .piechart{
+        height: auto;
+        width: 35%;
+        position: relative;
+        top: 7vw;
+    }
+
+    .center{
+        background: #010029;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+        padding: 7.2vw 0 7.2vw 0;
+        position: relative;
+        border-radius: 50%;
+        bottom: 20vw;
+    }
+
+    .center h3{
+        color: white;
+        font-size: 2vw;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .center p{
+        color: #76758B;
+        font-size: 1.5vw;
+        margin: 0;
+    }
+
 
 }
