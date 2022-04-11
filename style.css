@@ -98,6 +98,7 @@ header{
     justify-content: center;
     position: relative;
     top: 15vw;
+    margin-top: 8vw;
 }
 
 .strategy h2{
@@ -108,7 +109,7 @@ header{
 }
 
 .strategy img{
-    width: 30%;
+    width: 40%;
     height: auto;
 }
 
@@ -125,7 +126,7 @@ header{
 
 
 .strategy_card h3{
-    font-size: 3vw;
+    font-size: 4vw;
     color: #000073;
     margin-bottom: 8px;
     line-height: 1.5;
@@ -133,7 +134,7 @@ header{
 }
 
 .strategy_card p{
-    font-size: 2vw;
+    font-size: 3vw;
     color: #76758B;
     margin-top: 2px;
     text-align: center;
@@ -325,6 +326,7 @@ li{
     background-position: center;
     background-size: cover;
     padding-top: 6vw;
+    margin-top: 8vw;
 }
 
 .tokenomics h2{
@@ -486,18 +488,19 @@ li{
     position: relative;
     top: 31vw;
     height: 115vw;
+    margin-top: 8vw;
 }
 
 .token_distribution_head{
     color: white !important;
-    font-size: 3vw !important;
+    font-size: 4vw !important;
     margin: 0;
 }
 
 .token_distribution_text{
     text-align: center;
     color: #C0BFCA;
-    font-size: 2.2vw;
+    font-size: 2.35vw;
 }
 
 .piechart{
@@ -530,7 +533,7 @@ li{
 
 .center p{
     color: #76758B;
-    font-size: 2.1vw;
+    font-size: 2.5vw;
     margin: 0;
 }
 
@@ -540,20 +543,20 @@ li{
     align-items: center;
     justify-content: center;
     position: relative;
-    bottom: 83vw;
+    bottom: 87vw;
     left: 3.3vw;
 }
 
 .piechartval1 h3{
     margin: 0;
     color: #D62CDF;
-    font-size: 2.2vw;
+    font-size: 3vw;
 }
 
 .piechartval1 p{
     color: white;
     margin: 0;
-    font-size: 1.7vw;
+    font-size: 2.4vw;
 }
 
 .piechartval2{
@@ -562,20 +565,20 @@ li{
     align-items: flex-start;
     justify-content: center;
     position: relative;
-    bottom: 85vw;
-    right: 22vw;
+    bottom: 89vw;
+    right: 28vw;
 }
 
 .piechartval2 h3{
     margin: 0;
     color: #D62CDF;
-    font-size: 2.2vw;
+    font-size: 3vw;
 }
 
 .piechartval2 p{
     color: white;
     margin: 0;
-    font-size: 1.7vw;
+    font-size: 2.4vw;
 }
 
 .piechartval3{
@@ -584,20 +587,20 @@ li{
     align-items: flex-start;
     justify-content: center;
     position: relative;
-    bottom: 69vw;
-    right: 30vw;
+    bottom: 76vw;
+    right: 32vw;
 }
 
 .piechartval3 h3{
     margin: 0;
     color: #D62CDF;
-    font-size: 2.2vw;
+    font-size: 3vw;
 }
 
 .piechartval3 p{
     color: white;
     margin: 0;
-    font-size: 1.7vw;
+    font-size: 2.4vw;
 }
 
 .piechartval4{
@@ -606,20 +609,20 @@ li{
     align-items: flex-start;
     justify-content: center;
     position: relative;
-    bottom: 57vw;
+    bottom: 66vw;
     right: 25vw;
 }
 
 .piechartval4 h3{
     margin: 0;
     color: #D62CDF;
-    font-size: 2.2vw;
+    font-size: 3vw;
 }
 
 .piechartval4 p{
     color: white;
     margin: 0;
-    font-size: 1.7vw;
+    font-size: 2.4vw;
 }
 
 .piechartval5{
@@ -628,20 +631,20 @@ li{
     align-items: flex-start;
     justify-content: center;
     position: relative;
-    bottom: 54vw;
-    right: 14vw;
+    bottom: 64vw;
+    right: 12vw;
 }
 
 .piechartval5 h3{
     margin: 0;
     color: #D62CDF;
-    font-size: 2.2vw;
+    font-size: 3vw;
 }
 
 .piechartval5 p{
     color: white;
     margin: 0;
-    font-size: 1.7vw;
+    font-size: 2.4vw;
 }
 
 .piechartval6{
@@ -650,22 +653,22 @@ li{
     align-items: center;
     justify-content: center;
     position: relative;
-    bottom: 58vw;
-    right: 1vw;
+    bottom: 73vw;
+    right: -1vw;
     text-align: center;
 }
 
 .piechartval6 h3{
     margin: 0;
     color: #D62CDF;
-    font-size: 2.2vw;
+    font-size: 3vw;
     text-align: center;
 }
 
 .piechartval6 p{
     color: white;
     margin: 0;
-    font-size: 1.7vw;
+    font-size: 2.4vw;
 }
 
 .piechartval7{
@@ -674,20 +677,20 @@ li{
     align-items: flex-start;
     justify-content: center;
     position: relative;
-    bottom: 83vw;
-    right: -29vw;
+    bottom: 105vw;
+    right: -32vw;
 }
 
 .piechartval7 h3{
     margin: 0;
     color: #D62CDF;
-    font-size: 2.2vw;
+    font-size: 3vw;
 }
 
 .piechartval7 p{
     color: white;
     margin: 0;
-    font-size: 1.7vw;
+    font-size: 2.4vw;
 }
 
 .piechartval8{
@@ -696,20 +699,20 @@ li{
     align-items: flex-start;
     justify-content: center;
     position: relative;
-    bottom: 122vw;
-    right: -27vw;;
+    bottom: 145vw;
+    right: -28vw;;
 }
 
 .piechartval8 h3{
     margin: 0;
     color: #D62CDF;
-    font-size: 2.2vw;
+    font-size: 3vw;
 }
 
 .piechartval8 p{
     color: white;
     margin: 0;
-    font-size: 1.7vw;
+    font-size: 2.4vw;
 }
 
 .FAQ{
@@ -720,19 +723,20 @@ li{
     width: 100%;
     position: relative;
     top: 27vw;
+    margin-top: 8vw;
 }
 
 .faq_header{
     text-align: center;
     color: #000073;
     margin: 0;
-    font-size: 3vw;
+    font-size: 4vw;
 }
 
 .faq_description{
     text-align: center;
     color: #76758B;
-    font-size: 2.5vw;
+    font-size: 2.9vw;
 }
 
 ion-icon {
@@ -754,7 +758,7 @@ ion-icon {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 90%;
     overflow: hidden;
     transition: 0.3s all ease-in;
 }
@@ -792,7 +796,7 @@ ion-icon {
 }
 
 .answer p{
-    font-size: 1.8vw;
+    font-size: 2.1vw;
     color: #76758B;
     margin: 0;
 }
@@ -802,12 +806,16 @@ ion-icon {
     transition: 0.2s all ease-out;
     position: relative;
     right: 1vw;
+    font-size: 4vw;
+    --ionicon-stroke-width: 8vw;
 }
 
 .add{
     position: relative;
-    left: 11.5vw;
+    left: 16.5vw;
     transition: 0.2s all ease-out;
+    font-size: 4vw;
+    --ionicon-stroke-width: 8vw;
 }
 
 .question.active .add{
@@ -877,11 +885,12 @@ footer .logo{
 }
 
 footer .logo p{
-    font-size: 1.2vw;
+    font-size: 1.8vw;
     margin: 0;
     position: relative;
     bottom: 2.1vw;
-    right: -2vw;
+    right: -7vw;
+    width: 39vw;
 }
 
 .socials{
@@ -889,7 +898,7 @@ footer .logo p{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    width: 25%;
+    width: 32%;
     position: relative;
 }
 
@@ -1009,7 +1018,7 @@ footer .logo p{
     }
     
     .strategy img{
-        width: 30%;
+        width: 40%;
         height: auto;
     }
     
@@ -1026,7 +1035,7 @@ footer .logo p{
     
     
     .strategy_card h3{
-        font-size: 3vw;
+        font-size: 4vw;
         color: #000073;
         margin-bottom: 8px;
         line-height: 1.5;
@@ -1034,7 +1043,7 @@ footer .logo p{
     }
     
     .strategy_card p{
-        font-size: 2vw;
+        font-size: 3vw;
         color: #76758B;
         margin-top: 2px;
         text-align: center;
@@ -1088,7 +1097,7 @@ footer .logo p{
         align-items: center;
         justify-content: space-evenly;
         position: relative;
-        top: 1.5vw;
+        top: 2.5vw;
     }
     
     .two_image img{
@@ -1102,7 +1111,7 @@ footer .logo p{
         align-items: center;
         justify-content: space-between;
         position: relative;
-        top: 4vw;
+        top: 6vw;
         left: 1vw;
     }
     
@@ -1150,14 +1159,14 @@ footer .logo p{
 
     .elipse1 {
         position: absolute;
-        right: 80.1%;
+        right: 78.1%;
         bottom: 79.2%;
         color: #D62CDF;
     }
 
     .elipse2 {
         position: absolute;
-        right: 80.1%;
+        right: 78.1%;
         bottom: 29.3%;
         color: #D62CDF;
     }
@@ -1464,7 +1473,7 @@ footer .logo p{
         justify-content: center;
         position: relative;
         bottom: 85vw;
-        right: 22vw;
+        right: 24vw;
     }
     
     .piechartval2 h3{
@@ -1621,6 +1630,7 @@ footer .logo p{
         width: 100%;
         position: relative;
         top: 27vw;
+        margin-top: 8vw;
     }
     
     .faq_header{
@@ -1703,12 +1713,16 @@ footer .logo p{
         transition: 0.2s all ease-out;
         position: relative;
         right: 1vw;
+        font-size: 4vw;
+        --ionicon-stroke-width: 9vw;
     }
     
     .add{
         position: relative;
         left: 11.5vw;
         transition: 0.2s all ease-out;
+        font-size: 4vw;
+        --ionicon-stroke-width: 9vw;
     }
     
     .question.active .add{
@@ -1783,6 +1797,7 @@ footer .logo p{
         position: relative;
         bottom: 2.1vw;
         right: -2vw;
+        width: auto;
     }
     
     .socials{
@@ -2338,7 +2353,7 @@ footer .logo p{
         justify-content: center;
         position: relative;
         bottom: 85vw;
-        right: 22vw;
+        right: 24vw;
     }
 
     .piechartval2 h3{
@@ -2577,12 +2592,16 @@ footer .logo p{
         transition: 0.2s all ease-out;
         position: relative;
         right: 0;
+        font-size: 2vw;
+        --ionicon-stroke-width: 4vw;
     }
 
     .add{
         position: relative;
         left: 17.5vw;
         transition: 0.2s all ease-out;
+        font-size: 2vw;
+        --ionicon-stroke-width: 4vw;
     }
 
     .question.active .add{
@@ -2657,6 +2676,7 @@ footer .logo p{
         position: relative;
         bottom: 2.1vw;
         right: 1vw;
+        width: auto;
     }
 
     .socials{
@@ -3221,7 +3241,7 @@ footer .logo p{
         justify-content: center;
         position: relative;
         bottom: 85vw;
-        right: 22vw;
+        right: 24vw;
     }
 
     .piechartval2 h3{
@@ -3460,12 +3480,16 @@ footer .logo p{
         transition: 0.2s all ease-out;
         position: relative;
         right: 0;
+        font-size: 2vw;
+        --ionicon-stroke-width: 4vw;
     }
 
     .add{
         position: relative;
         left: 17.5vw;
         transition: 0.2s all ease-out;
+        font-size: 2vw;
+        --ionicon-stroke-width: 4vw;
     }
 
     .question.active .add{
@@ -3540,6 +3564,7 @@ footer .logo p{
         position: relative;
         bottom: 2.1vw;
         right: 1vw;
+        width: auto;
     }
 
     .socials{
@@ -4343,12 +4368,16 @@ footer .logo p{
         transition: 0.2s all ease-out;
         position: relative;
         right: 0;
+        font-size: 2vw;
+        --ionicon-stroke-width: 4vw
     }
 
     .add{
         position: relative;
         left: 17.5vw;
         transition: 0.2s all ease-out;
+        font-size: 2vw;
+        --ionicon-stroke-width: 4vw;
     }
 
     .question.active .add{
@@ -4423,6 +4452,7 @@ footer .logo p{
         position: relative;
         bottom: 2.1vw;
         right: 1vw;
+        width: auto;
     }
 
     .socials{
