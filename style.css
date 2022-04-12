@@ -505,7 +505,7 @@ li{
     height: auto;
     width: 52%;
     position: relative;
-    top: 10%;
+    top: 11vw;
     margin-top: 0;
 }
 
@@ -519,7 +519,7 @@ li{
     padding: 12.9vw 0 12.9vw 0;
     position: relative;
     border-radius: 50%;
-    bottom: 27%;
+    bottom: 32vw;
 }
 
 .center h3{
@@ -540,9 +540,9 @@ li{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative;
-    bottom: 87vw;
-    left: 3.3vw;
+    position: absolute;
+    bottom: 77vw;
+    left: 47.3vw;
 }
 
 .piechartval1 h3{
@@ -562,9 +562,9 @@ li{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    position: relative;
-    bottom: 89vw;
-    right: 28vw;
+    position: absolute;
+    bottom: 73vw;
+    right: 68vw;
 }
 
 .piechartval2 h3{
@@ -584,9 +584,9 @@ li{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    position: relative;
-    bottom: 76vw;
-    right: 32vw;
+    position: absolute;
+    bottom: 48vw;
+    right: 80vw;
 }
 
 .piechartval3 h3{
@@ -606,9 +606,10 @@ li{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    position: relative;
-    bottom: 66vw;
-    right: 25vw;
+    position: absolute;
+    bottom: 31vw;
+    right: 75vw;
+
 }
 
 .piechartval4 h3{
@@ -628,9 +629,9 @@ li{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    position: relative;
-    bottom: 64vw;
-    right: 12vw;
+    position: absolute;
+    bottom: 14vw;
+    right: 58vw;
 }
 
 .piechartval5 h3{
@@ -650,9 +651,9 @@ li{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative;
-    bottom: 73vw;
-    right: -1vw;
+    position: absolute;
+    bottom: 10vw;
+    right: 44vw;
     text-align: center;
 }
 
@@ -674,9 +675,9 @@ li{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    position: relative;
-    bottom: 105vw;
-    right: -32vw;
+    position: absolute;
+    bottom: 32vw;
+    right: 10vw;
 }
 
 .piechartval7 h3{
@@ -696,9 +697,9 @@ li{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    position: relative;
-    bottom: 145vw;
-    right: -28vw;;
+    position: absolute;
+    bottom: 68vw;
+    right: 15vw;
 }
 
 .piechartval8 h3{
