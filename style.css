@@ -6,6 +6,12 @@ body{
     font-family: 'Poppins', sans-serif !important;
 }
 
+
+.body_fix{
+    position: fixed;
+}
+
+
 header{
     height: 100px;
     width: 100%;
@@ -15,7 +21,65 @@ header{
     justify-content: space-between;
 }
 
+.mobile_header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
 
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav_bar img{
+    width: 40%;
+    height: auto;
+}
+
+.nav_bar ion-icon{
+    --ionicon-stroke-width: 11vw;
+    font-size: 13vw;
+}
+
+.menu{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    background: #010029;
+    left: 100vw;
+    transition: 0.5s all ease-out;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 7vw;
+    font-weight: 400;
+    margin-top: 3vw;
+}
+
+.menu ion-icon {
+    color: white;
+    font-size: 13vw;
+}
+
+.menu_show{
+    left: 0;
+}
+
+.menu.menu_show body{
+    position: fixed;
+}
 
 .main_section{
     display: flex;
@@ -50,7 +114,7 @@ header{
 
 .main_button{
     display: flex;
-    width: 70%;
+    width: 100%;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -60,7 +124,7 @@ header{
 
 .button{     
     border: none;
-    width: 40%;
+    width: 32%;
     border-radius: 8px;
     padding: 0.5% 5% 0.5% 5%;
     background: #961F9C;
@@ -73,12 +137,12 @@ header{
 }
 
 .button p{
-    font-size: 2vw;
+    font-size: 2.5vw;
 }
 
 .button_p{
     color: #000073;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 .button img{
@@ -933,6 +997,65 @@ footer .logo p{
         justify-content: space-between;
     }
     
+    .mobile_header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .nav_bar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .nav_bar img{
+        width: 40%;
+        height: auto;
+    }
+    
+    .nav_bar ion-icon{
+        --ionicon-stroke-width: 10vw;
+        font-size: 12vw;
+    }
+    
+    .menu{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+        background: #010029;
+        left: 100vw;
+        transition: 0.5s all ease-out;
+    }
+    
+    .menu a {
+        color: white;
+        text-decoration: none;
+        font-size: 7vw;
+        font-weight: 400;
+        margin-top: 3vw;
+    }
+    
+    .menu ion-icon {
+        color: white;
+        font-size: 13vw;
+    }
+    
+    .menu_show{
+        left: 0;
+    }
+    
+    .menu.menu_show body{
+        position: fixed;
+    }
     
     
     .main_section{
@@ -2725,6 +2848,11 @@ footer .logo p{
         display: none !important;
     }
 
+    .mobile_header{
+        display: none;
+    }
+
+
 }
 
 
@@ -3617,6 +3745,11 @@ footer .logo p{
         display: none !important;
     }
 
+    .mobile_header{
+        display: none;
+    }
+
+
 }
 
 
@@ -4507,6 +4640,10 @@ footer .logo p{
 
     .mobile_line{
         display: none !important;
+    }
+
+    .mobile_header{
+        display: none;
     }
 
 }
