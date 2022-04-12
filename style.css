@@ -486,10 +486,7 @@ li{
     align-items: center;
     justify-content: center;
     position: relative;
-    position: relative;
-    top: 33vmin;
-    height: 376px;
-    margin-top: 8vw;
+    height: auto;
 }
 
 .token_distribution_head{
