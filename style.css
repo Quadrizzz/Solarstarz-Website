@@ -1966,6 +1966,11 @@ footer .logo p{
         font-family: 'Poppins', sans-serif !important;
     }
 
+    .body_fix{
+        position: relative;
+    }
+
+
     .elipse1{
         display: none;
     }
@@ -2049,6 +2054,7 @@ footer .logo p{
         justify-content: space-between;
         position: relative;
         top: 2vw;
+        cursor: pointer;
     }
 
     .button{     
@@ -2063,6 +2069,12 @@ footer .logo p{
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
+        cursor: pointer;
+        transition: 0.2s all ease-out;
+    }
+
+    .button:hover{
+        background: #D62CDF;
     }
 
     .button p{
@@ -2072,6 +2084,11 @@ footer .logo p{
     .button_p{
         color: #000073;
         font-size: 1.3vw;
+        transition: 0.2s all ease-out;
+    }
+
+    .button_p:hover{
+        color: #D62CDF;
     }
 
     .button img{
@@ -2866,6 +2883,10 @@ footer .logo p{
         font-family: 'Poppins', sans-serif !important;
     }
     
+    .body_fix{
+        position: relative;
+    }
+
     .elipse1{
         display: none;
     }
@@ -2949,6 +2970,7 @@ footer .logo p{
         justify-content: space-between;
         position: relative;
         top: 2vw;
+        cursor: pointer;
     }
 
     .button{     
@@ -2963,6 +2985,12 @@ footer .logo p{
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
+        cursor: pointer;
+        transition: 0.2s all ease-out;
+    }
+
+    .button:hover{
+        background: #D62CDF;
     }
 
     .button p{
@@ -2972,6 +3000,11 @@ footer .logo p{
     .button_p{
         color: #000073;
         font-size: 1.3vw;
+        transition: 0.2s all ease-out;
+    }
+
+    .button_p:hover{
+        color: #D62CDF;
     }
 
     .button img{
@@ -3764,6 +3797,10 @@ footer .logo p{
         font-family: 'Poppins', sans-serif !important;
     }
 
+    .body_fix{
+        position: relative;
+    }
+
     .elipse1{
         display: none;
     }
@@ -3847,6 +3884,7 @@ footer .logo p{
         justify-content: space-between;
         position: relative;
         top: 2vw;
+        cursor: pointer;
     }
 
     .button{     
@@ -3861,6 +3899,11 @@ footer .logo p{
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
+        transition: 0.2s all ease-out;
+    }
+
+    .button:hover{
+        background: #D62CDF;
     }
 
     .button p{
@@ -3870,6 +3913,11 @@ footer .logo p{
     .button_p{
         color: #000073;
         font-size: 1.3vw;
+        transition: 0.2s all ease-in;
+    }
+
+    .button_p:hover{
+        color: #961F9C;
     }
 
     .button img{
