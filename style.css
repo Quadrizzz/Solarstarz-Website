@@ -487,8 +487,8 @@ li{
     justify-content: center;
     position: relative;
     position: relative;
-    top: 31vw;
-    height: 115vw;
+    top: 33vmin;
+    height: 118vmin;
     margin-top: 8vw;
 }
 
@@ -508,7 +508,7 @@ li{
     height: auto;
     width: 52%;
     position: relative;
-    top: 12vw;
+    top: 10%;
     margin-top: 0;
 }
 
@@ -522,7 +522,7 @@ li{
     padding: 12.9vw 0 12.9vw 0;
     position: relative;
     border-radius: 50%;
-    bottom: 31vw;
+    bottom: 27%;
 }
 
 .center h3{
