@@ -237,13 +237,14 @@ header{
 .roadmap h2{
     color: #000073;
     font-size: 4.5vw;
+    margin-bottom: 0;
 }
 
 .mobile_line {
-    height: 90vw;
+    height: 80.3%;
     position: absolute;
-    bottom: 3vw;
-    right: 79vw;
+    bottom: 3.3%;
+    right: 79%;
     display: block;
     border-left: 0.5vw solid #000073;
 }
@@ -251,14 +252,14 @@ header{
 .elipse1 {
     position: absolute;
     right: 78.1%;
-    bottom: 79.2%;
+    bottom: 81.8%;
     color: #D62CDF;
 }
 
 .elipse2 {
     position: absolute;
     right: 78.1%;
-    bottom: 29.3%;
+    bottom: 29.9%;
     color: #D62CDF;
 }
 
