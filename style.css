@@ -826,7 +826,7 @@ ion-icon {
     justify-content: center;
     width: 90%;
     overflow: hidden;
-    transition: 0.3s all ease-in;
+    transition: 0.7s all ease-in;
 }
 
 .quest{
@@ -835,7 +835,7 @@ ion-icon {
     align-items: flex-end;
     justify-content: space-between;
     width: 100%;
-    transition: 0.3s all ease-in;
+    transition: 0.7s all ease-in;
 }
 
 .question:hover .quest p{
@@ -852,13 +852,15 @@ ion-icon {
 
 .answer{
     overflow: hidden;
-    height: 0;
-    transition: 0.5s all ease-out;
+    max-height: 0;
+    transition: 0.7s all ease-out;
+    transition-timing-function: cubic-bezier(0.7, 0.7, 0.1, 0.7);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
     width: 100%;
+    will-change: max-height, opacity;
 }
 
 .answer p{
@@ -868,18 +870,18 @@ ion-icon {
 }
 
 .sub{
-    opacity: 0;
-    transition: 0.2s all ease-out;
-    position: relative;
-    right: 1vw;
+    opacity: 1;
+    transition: 0.3s all ease-in;
+    position: absolute;
+    right: 5.7vw;
     font-size: 4vw;
     --ionicon-stroke-width: 8vw;
 }
 
 .add{
-    position: relative;
-    left: 16.5vw;
-    transition: 0.2s all ease-out;
+    position: absolute;
+    left: 90.4vw;
+    transition: 0.3s all ease-in;
     font-size: 4vw;
     --ionicon-stroke-width: 8vw;
 }
@@ -893,7 +895,7 @@ ion-icon {
 }
 
 .question.active .answer{
-    height: 8vw;
+    max-height: 40vw;
     opacity: 1;
 }
 
@@ -907,7 +909,7 @@ hr{
     background: transparent;
     border-top: none;
     border-bottom: 2px solid grey;
-    animation: fade1 2s 1;
+    animation: fade1 3.5s 1;
 }
 
 @keyframes fade {
@@ -1799,9 +1801,9 @@ footer .logo p{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 80%;
+        width: 90%;
         overflow: hidden;
-        transition: 0.3s all ease-in;
+        transition: 0.7s all ease-in;
     }
     
     .quest{
@@ -1810,7 +1812,7 @@ footer .logo p{
         align-items: flex-end;
         justify-content: space-between;
         width: 100%;
-        transition: 0.3s all ease-in;
+        transition: 0.7s all ease-in;
     }
     
     .question:hover .quest p{
@@ -1825,15 +1827,18 @@ footer .logo p{
         transition: 0.2s all ease-in;
     }
     
+    
     .answer{
         overflow: hidden;
-        height: 0;
-        transition: 0.5s all ease-out;
+        max-height: 0;
+        transition: 0.7s all ease-out;
+        transition-timing-function: cubic-bezier(0.7, 0.7, 0.1, 0.5);
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: flex-start;
         width: 100%;
+        will-change: max-height, opacity;
     }
     
     .answer p{
@@ -1843,18 +1848,18 @@ footer .logo p{
     }
     
     .sub{
-        opacity: 0;
-        transition: 0.2s all ease-out;
-        position: relative;
-        right: 1vw;
+        opacity: 1;
+        transition: 0.3s all ease-in;
+        position: absolute;
+        right: 5.7vw;
         font-size: 4vw;
         --ionicon-stroke-width: 9vw;
     }
     
     .add{
-        position: relative;
-        left: 11.5vw;
-        transition: 0.2s all ease-out;
+        position: absolute;
+        left: 90.4vw;
+        transition: 0.3s all ease-out;
         font-size: 4vw;
         --ionicon-stroke-width: 9vw;
     }
@@ -1868,7 +1873,7 @@ footer .logo p{
     }
     
     .question.active .answer{
-        height: 8vw;
+        max-height: 40vw;
         opacity: 1;
     }
     
@@ -2703,9 +2708,9 @@ footer .logo p{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 80%;
+        width: 90%;
         overflow: hidden;
-        transition: 0.3s all ease-in;
+        transition: 0.7s all ease-in;
     }
 
     .quest{
@@ -2714,7 +2719,7 @@ footer .logo p{
         align-items: flex-end;
         justify-content: space-between;
         width: 100%;
-        transition: 0.3s all ease-in;
+        transition: 0.7s all ease-in;
     }
 
     .question:hover .quest p{
@@ -2731,13 +2736,15 @@ footer .logo p{
 
     .answer{
         overflow: hidden;
-        height: 0;
-        transition: 0.5s all ease-out;
+        max-height: 0;
+        transition: 0.7s all ease-out;
+        transition-timing-function: cubic-bezier(0.7, 0.7, 0.1, 0.5);
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: flex-start;
         width: 100%;
+        will-change: max-height, opacity;
     }
 
     .answer p{
@@ -2748,17 +2755,17 @@ footer .logo p{
 
     .sub{
         opacity: 0;
-        transition: 0.2s all ease-out;
-        position: relative;
-        right: 0;
+        transition: 0.3s all ease-out;
+        position: absolute;
+        right: 5.6vw;
         font-size: 2vw;
         --ionicon-stroke-width: 4vw;
     }
 
     .add{
-        position: relative;
-        left: 17.5vw;
-        transition: 0.2s all ease-out;
+        position: absolute;
+        left: 92.4vw;
+        transition: 0.3s all ease-out;
         font-size: 2vw;
         --ionicon-stroke-width: 4vw;
     }
@@ -2772,7 +2779,7 @@ footer .logo p{
     }
 
     .question.active .answer{
-        height: 8vw;
+        height: fit-content;
         opacity: 1;
     }
 
@@ -3616,9 +3623,9 @@ footer .logo p{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 80%;
+        width: 90%;
         overflow: hidden;
-        transition: 0.3s all ease-in;
+        transition: 0.7s all ease-in;
     }
 
     .quest{
@@ -3627,7 +3634,7 @@ footer .logo p{
         align-items: flex-end;
         justify-content: space-between;
         width: 100%;
-        transition: 0.3s all ease-in;
+        transition: 0.7s all ease-in;
     }
 
     .question:hover .quest p{
@@ -3644,13 +3651,15 @@ footer .logo p{
 
     .answer{
         overflow: hidden;
-        height: 0;
-        transition: 0.5s all ease-out;
+        max-height: 0;
+        transition: 0.7s all ease-in;
+        transition-timing-function: cubic-bezier(0.7, 0.7, 0.1, 0.5);
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: flex-start;
         width: 100%;
+        will-change: max-height, opacity;
     }
 
     .answer p{
@@ -3660,18 +3669,18 @@ footer .logo p{
     }
 
     .sub{
-        opacity: 0;
+        opacity: 1;
         transition: 0.2s all ease-out;
-        position: relative;
-        right: 0;
+        position: absolute;
         font-size: 2vw;
+        right: 5.5vw;
         --ionicon-stroke-width: 4vw;
     }
 
     .add{
-        position: relative;
-        left: 17.5vw;
-        transition: 0.2s all ease-out;
+        position: absolute;
+        left: 92.4vw;
+        transition: 0.3s all ease-out;
         font-size: 2vw;
         --ionicon-stroke-width: 4vw;
     }
@@ -3685,7 +3694,7 @@ footer .logo p{
     }
 
     .question.active .answer{
-        height: 8vw;
+        max-height: 50vw;
         opacity: 1;
     }
 
@@ -4528,9 +4537,9 @@ footer .logo p{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 80%;
+        width: 90%;
         overflow: hidden;
-        transition: 0.3s all ease-in;
+        transition: 0.7s all ease-in;
     }
 
     .quest{
@@ -4539,7 +4548,7 @@ footer .logo p{
         align-items: flex-end;
         justify-content: space-between;
         width: 100%;
-        transition: 0.3s all ease-in;
+        transition: 0.7s all ease-in;
     }
 
     .question:hover .quest p{
@@ -4556,13 +4565,15 @@ footer .logo p{
 
     .answer{
         overflow: hidden;
-        height: 0;
-        transition: 0.5s all ease-out;
+        max-height: 0;
+        transition: 0.7s all ease-in;
+        transition-timing-function: cubic-bezier(0.7, 0.7, 0.1, 0.5);
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: flex-start;
         width: 100%;
+        will-change: max-height, opacity;
     }
 
     .answer p{
@@ -4572,18 +4583,18 @@ footer .logo p{
     }
 
     .sub{
-        opacity: 0;
+        opacity: 1;
         transition: 0.2s all ease-out;
-        position: relative;
-        right: 0;
+        position: absolute;
         font-size: 2vw;
-        --ionicon-stroke-width: 4vw
+        right: 4.5vw;
+        --ionicon-stroke-width: 4vw;
     }
 
     .add{
-        position: relative;
-        left: 17.5vw;
-        transition: 0.2s all ease-out;
+        position: absolute;
+        left: 92.4vw;
+        transition: 0.3s all ease-out;
         font-size: 2vw;
         --ionicon-stroke-width: 4vw;
     }
@@ -4597,7 +4608,7 @@ footer .logo p{
     }
 
     .question.active .answer{
-        height: 8vw;
+        max-height: 50vw;
         opacity: 1;
     }
 
@@ -4631,6 +4642,7 @@ footer .logo p{
             opacity: 1;
         }
     }
+
 
     footer{
         display: flex;
